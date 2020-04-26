@@ -5,7 +5,7 @@
 A jukebox is probably more outdated than anything playing music that we know
 today. But none the less, it delivered the most classy experience of listening. 
 
-![jukebox](/docs/diner-clipart-jukebox-6-original.png)
+![jukebox](/doc/pics/diner-clipart-jukebox-6-original.png?raw=true)
 
 The idea of building a jukebox for kids came during christmas unpacking
 several CDs which might be another means of listening to music endangered
@@ -25,7 +25,7 @@ changing table.
 
 Here is how the result currently looks:
 
-![complete](/docs/complete.jpg)
+![complete](/doc/pics/complete.jpg?raw=true)
 
 If you manage to build a nicer version, I would be thrilled to receive
 your photos!
@@ -34,7 +34,7 @@ your photos!
 
 Besides a Raspberry Pi and a random bluetooth speaker, you need the following material:
 
-![material](/docs/material.jpg)
+![material](/doc/pics/material.jpg?raw=true)
 
 - aluminium foil (I used what I found in the kitchen and cut it in 1.5cm wide
 lanes)
@@ -58,7 +58,7 @@ Reichelt](https://www.reichelt.com/ch/de/entwicklerboards-steckbrueckenkabel-20c
 
 ## Hardware Setup:
 
-![grid](/docs/grid.jpg)
+![grid](/doc/pics/grid.jpg?raw=true)
 
 The aluminium foil works as a conductor just like a cable. You can pin stripes
 of it on the board using the thumbtacks. I suggest putting the 4 long stripes
@@ -72,12 +72,12 @@ touch the 24 thumbtacks of the touch pad.
 
 Here is a detailed view of the cotton pads in action:
 
-![grid detail](/docs/grid_detail.jpg)
+![grid detail](/doc/pics/grid_detail.jpg?raw=true)
 
 After adding the sheet protector and the magnet on a random thumbtack it looks
 like this:
 
-![complete touchpad](/docs/complete_touchpad)
+![complete touchpad](/doc/pics/complete_touchpad?raw=true)
 
 Finally, you need to connect the 4 long stripes and the 6 short stripes to the
 GPIO section of the Raspberry Pi. Please bear in mind that the Raspberry GPIO
@@ -166,8 +166,3 @@ consecutive measurements pointing to only a single magnet on one field of the to
 
 Please, bear in mind that the kids_jukebox service will shutdown the raspberry pi when
 placing the magnet on field 23 (bottom right).
-
-
-
-
-
