@@ -1,0 +1,5 @@
+/kids_jukebox/connect
+/kids_jukebox/connect.[^e]*
+/pulseaudio/autoConnect.sh
+/doc/pics/orig
+*.swp

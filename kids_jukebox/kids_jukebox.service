@@ -1,0 +1,10 @@
+[Unit]
+Description=Run kids jukebox controller based on hand crafted touch pad
+
+[Service]
+Type=simple
+ExecStart=/home/pi/kids_jukebox/start.sh
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

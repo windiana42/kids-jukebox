@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo -u pi pulseaudio --start << EOF
+raspberry
+EOF
+
+# BLUETOOTH-SPEAKER
+sudo -u pi bluetoothctl << EOF
+raspberry
+connect 00:00:00:00:00:00 
+EOF
+

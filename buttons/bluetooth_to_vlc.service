@@ -1,0 +1,11 @@
+[Unit]
+Description=Send bluetooth speaker events to vlc via dbus-send
+
+[Service]
+Type=simple
+ExecStart=/home/pi/buttons/start.sh
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target
+Requires=bluetooth.target

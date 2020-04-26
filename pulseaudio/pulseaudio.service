@@ -1,0 +1,10 @@
+[Unit]
+Description=PulseAudio Daemon
+
+[Install]
+WantedBy=bluetooth.target
+
+[Service]
+Type=simple
+PrivateTmp=true
+ExecStart=/usr/bin/pulseaudio --system --disallow-exit
